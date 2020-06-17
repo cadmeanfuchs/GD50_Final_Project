@@ -1,0 +1,129 @@
+* {
+    font-family: Neuzeit Grotesk;
+    color: #524843;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+nav a {
+ color: floralwhite;
+ font-family: parisine-std, sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ letter-spacing: 1px;
+ font-size: 13pt;
+}
+
+nav a:hover{
+ color: floralwhite;
+ text-shadow: 0 0 .75rem #EAB27B;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+#c {
+    background: url(../img/Home_Page_Background.png) no-repeat center center local;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   height: 100vh;
+   width: 100vw;
+}
+
+#d {
+    background: url(../img/Portfolio_Page_Background_Colorcorrect.png) no-repeat center bottom local;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   height: 100vh;
+   width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+#Agoraphone:hover{
+    filter: drop-shadow(0 0 .95rem #F4B5A2);
+    overflow: visible;
+}
+
+#ShamajonShelf:hover{
+    filter: drop-shadow(0 0 1.25rem #F4CBA2);
+    overflow: visible;
+}
+
+#UFBranding:hover{
+    filter: drop-shadow(0 0 2.45rem #94C6C3);
+    overflow: visible;
+}
+
+svg{
+    fill:#fff;
+}
+
+svg:hover{
+    filter: drop-shadow(0 0 0.45rem #EAB27B);
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .mobilizer {
+    
+    }
+}
+
+.modal.fade.in .lab-modal-body {
+  bottom: 0;
+  opacity: 1;
+}
+
+.lab-modal-body h1 {
+  font-size: 4rem;
+}
+
+.lab-modal-body p {
+  margin: 0 0 1.62rem 0;
+  line-height: 1.62;
+  font-weight: 300;
+  font-size: 1.62rem;
+  color: #666;
+}
+
+.lab-modal-body {
+  position: relative;
+  bottom: -250px;
+  margin: 150px auto 0;
+  padding: 40px;
+  max-width: 60%;
+  height: auto;
+  background-color: rgb(248, 250, 247);
+  border: 1px solid #BEBEBE;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+  transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+}
+
+.close {
+  margin-top: -20px;
+  margin-right: -20px;
+  text-shadow: 0 1px 0 #ffffff;
+}
+
+.popup-button {
+  margin-top: 70px;
+}
